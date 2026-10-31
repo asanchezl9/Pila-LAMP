@@ -82,7 +82,7 @@ Ahora que ya disponemos del archivo **Vagrantfile** totalmente limpio, vamos a e
 > INFORMACIÓN SOBRE EL CÓDIGO ESCRITO A CONTINUACIÓN
 > ---
 >
->Debemos tener en cuenta 4 piezas claves.
+>Debemos tener en cuenta 4 piezas claves:
 >
 > 1. **Multi-Machine (`config.vm.define`)**: Al usar dos servidores separados (**front-end y back-end**), usamos esta orden para poder dividir el archivo en dos bloques: uno para la máquina de **Apache** y otro para la de **MySQL**.
 >
