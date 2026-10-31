@@ -3,15 +3,15 @@
 
 Antes de comenzar a montar la infraestructura en dos niveles, vamos a ver qué es la **[Pila LAMP](https://aws.amazon.com/es/what-is/lamp-stack/)**.
 
-> En pocas palabras, la **Pila LAMP** es el _conjunto de tecnologías de diferentes softwares utilizados para crear sitios web y aplicaciones web_, de manera que permiten que el **front-end** (la web, por ejemplo) se conecte con el **back-end** (la base de datos). Si desglosamos la palabra **LAMP**, obtendremos las 4 tecnologías:
->
-> - **L (Linux)**: Sistema operativo (en el caso de esta infraestructura, **[Debian 12](https://www.debian.org/releases/bookworm/index.es.html)**) que hace de suelo para todo.
->
-> - **A (Apache)**: El intermediario (Servidor web), es decir, cuando tú entras al navegador, éste se encarga de atender y mostrar la página (front-end).
->
-> - **M (MySQL)**: Almacena datos (Base de datos). Aquí se guardan los usuarios, contraseñas y datos reales (back-end).
->
-> - **P (PHP)**: Se encarga de traducir o enviar mensajes. Apache solamente sabe mostrar las páginas y no sabe hablar con la base de datos, así que usa el código PHP para poder pedir datos a MySQL, procesarlos y entregarlos a Apache convertidos en una web y sus estilos.
+En pocas palabras, la **Pila LAMP** es el _conjunto de tecnologías de diferentes softwares utilizados para crear sitios web y aplicaciones web_, de manera que permiten que el **front-end** (la web, por ejemplo) se conecte con el **back-end** (la base de datos). Si desglosamos la palabra **LAMP**, obtendremos las 4 tecnologías:
+
+- **L (Linux)**: Sistema operativo (en el caso de esta infraestructura, **[Debian 12](https://www.debian.org/releases/bookworm/index.es.html)**) que hace de suelo para todo.
+
+- **A (Apache)**: El intermediario (Servidor web), es decir, cuando tú entras al navegador, éste se encarga de atender y mostrar la página (front-end).
+
+- **M (MySQL)**: Almacena datos (Base de datos). Aquí se guardan los usuarios, contraseñas y datos reales (back-end).
+
+- **P (PHP)**: Se encarga de traducir o enviar mensajes. Apache solamente sabe mostrar las páginas y no sabe hablar con la base de datos, así que usa el código PHP para poder pedir datos a MySQL, procesarlos y entregarlos a Apache convertidos en una web y sus estilos.
 
 Una vez vista la definición de **Pila LAMP**, comenzamos a crear la infraestructura.
 
