@@ -83,7 +83,7 @@ Ahora que ya disponemos del archivo **Vagrantfile** totalmente limpio, vamos a e
 > ---
 >
 >Debemos tener en cuenta 4 piezas claves.
-l
+>
 > 1. **Multi-Machine (`config.vm.define`)**: Al usar dos servidores separados (**front-end y back-end**), usamos esta orden para poder dividir el archivo en dos bloques: uno para la máquina de **Apache** y otro para la de **MySQL**.
 >
 > 2. **Identidad (`hostname`)**: El nombre que le ponemos a las máquinas es totalmente a la elección de cada uno, para que cuando entremos a la terminal y veamos el prompt, éste dirá **vagrant@usuarioApache** y **vagrant@usuarioMysql** (en mi caso: **vagrant@AmparoApache** y **vagrant@AmparoMysql**).
