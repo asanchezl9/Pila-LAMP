@@ -140,7 +140,7 @@ Vagrant.configure("2") do |config|
 end
 ```
 
-> **Recordatorio**: Cambiar los apartados donde pone **usuario** por el nombre que queramos poner.
+> **Recordatorio**: Cambiar los apartados donde pone **usuario** por el nombre que queramos poner (en mi caso AmparoApache y AmparoMysql).
 
 La siguiente captura muestra el ejemplo de mi Vagrantfile:
 
