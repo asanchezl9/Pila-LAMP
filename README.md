@@ -19,6 +19,28 @@ Una vez vista la definición de **Pila LAMP**, comenzamos a crear la infraestruc
 
 ---
 
+## **_Índice de contenidos_**
+
+0. **[Requisitos previos](#requisitos-previos)**
+
+1. **[Creación e inicialización de la infraestructura](#1-creación-e-inicialización-de-la-infraestructura)**
+
+2. **[Diseño de la arquitectura (Vagrantfile)](#2-diseño-de-la-arquitectura-vagrantfile)**
+
+3. **[Aprovisionamiento del Back-end (MySQL)](#3-aprovisionamiento-del-back-end-mysql)**
+
+4. **[Aprovisionamiento del Front-end (Apache y PHP)](#4-aprovisionamiento-del-front-end-apache-y-php)**
+
+5. **[Comprobación del funcionamiento de la infraestructura](#5-comprobación-del-funcionamiento-de-la-infraestructura)**
+
+6. **[Screencast](#screencast)**
+
+7. **[Incidencias](#incidencias)**
+
+8. **[Fuentes Consultadas](#fuentes-consultadas)**
+
+---
+
 ## **_Requisitos previos_**
 
 > **Nota importante**: En caso de que se disponga de las herramientas anteriores y el entorno de VSCode + Vagrant + VirtualBox ya configurados, saltar este punto.
